@@ -1,74 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BankNifty Nifty Stock Market</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Banknifty Nifty Stock Market</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
       font-family: 'Poppins', sans-serif;
-      background: #fff;
-      color: #000;
+      background: linear-gradient(135deg, #f9f9f9, #e0f7fa);
+      color: #111;
       text-align: center;
-      padding: 20px;
+      padding: 30px 20px;
     }
+
     .container {
       max-width: 600px;
       margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
     }
+
     .logo {
-      width: 120px;
+      width: 100px;
       margin-bottom: 20px;
+      border-radius: 50%;
+      border: 2px solid #eee;
     }
+
     h1 {
       font-size: 24px;
       font-weight: 600;
-      margin-bottom: 5px;
+      margin-bottom: 8px;
+      color: #111;
     }
+
     .subscribers {
-      color: gray;
-      margin-bottom: 20px;
+      color: #666;
+      font-size: 15px;
+      margin-bottom: 25px;
     }
+
     .point {
       font-size: 16px;
       margin: 15px 0;
+      color: #333;
+      line-height: 1.5;
     }
+
+    .point span {
+      font-weight: 500;
+    }
+
     .btn {
-      background: #1ebea5;
-      color: #fff;
-      padding: 14px 25px;
-      font-size: 16px;
-      border: none;
-      border-radius: 30px;
-      text-decoration: none;
       display: inline-block;
       margin-top: 25px;
+      padding: 14px 32px;
+      background: #00c389;
+      color: white;
+      font-size: 16px;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 30px;
+      transition: background 0.3s;
     }
+
+    .btn:hover {
+      background: #00a97a;
+    }
+
     .note {
       margin-top: 20px;
-      color: #666;
+      color: #777;
       font-size: 14px;
+    }
+
+    @media (max-width: 500px) {
+      .container {
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 20px;
+      }
+
+      .btn {
+        padding: 12px 28px;
+        font-size: 15px;
+      }
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <img src="desktop.png" alt="Logo" class="logo" />
-
+    <img src="https://i.ibb.co/gPT5bpK/banknifty-logo.jpg" alt="Logo" class="logo">
     <h1>BANKNIFTY NIFTY STOCK MARKET</h1>
-    <div class="subscribers">955,571 subscribers</div>
+    <p class="subscribers">955,571 subscribers</p>
 
-    <div class="point">💰 Trade like an expert with no experience needed!</div>
-    <div class="point">🔍 Discover a secret, profitable method for trading.</div>
-    <div class="point">🤝 Trusted by 950K+ traders. 💯</div>
-    <div class="point">📚 Benefit from our years of experience and start making profits from day one!</div>
+    <div class="point">💰 <span>Trade like an expert</span> with no experience needed!</div>
+    <div class="point">🔍 <span>Discover a secret, profitable method</span> for trading.</div>
+    <div class="point">🤝 <span>Trusted by 950K+ traders.</span> 💯</div>
+    <div class="point">📚 <span>Benefit from our years of experience</span> and start making profits from day one!</div>
 
-    <a class="btn" href="https://t.me/YourTelegramLink" target="_blank">VIEW IN TELEGRAM</a>
+    <a href="https://t.me/yourchannel" class="btn" target="_blank">VIEW IN TELEGRAM</a>
 
-    <div class="note">if you have Telegram you can view and join 🧑‍🏫 <strong>Banknifty Nifty Stock Market</strong> right away.</div>
+    <p class="note">
+      If you have <strong>Telegram</strong> you can view and join 🚀 <strong>Banknifty Nifty Stock Market</strong> right away.
+    </p>
   </div>
 </body>
 </html>
-
